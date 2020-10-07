@@ -15,8 +15,8 @@ public class exercicio2 {
 		z = tec.nextInt();
 		System.out.println("A ordem decrescente correta é:");
 		
-		if (x >= y && x >= z) {
-            if (y >= z) {
+		if (x <= y && x <= z) {
+            if (y <= z) {
                 System.out.printf("Primeiro %d",x);
                 System.out.printf("\nSegundo %d",y);
                 System.out.printf("\nTerceiro %d",z);
@@ -25,8 +25,8 @@ public class exercicio2 {
                 System.out.printf("\nSegundo %d",z);
                 System.out.printf("\nTerceiro %d",y);
             }
-        } else if (y >= x && y >= z) {
-            if (x >= z) {
+        } else if (y <= x && y <= z) {
+            if (x <= z) {
                 System.out.printf("Primeiro %d",y);
                 System.out.printf("\nSegundo %d",x);
                 System.out.printf("\nTerceiro %d",z);
@@ -36,7 +36,7 @@ public class exercicio2 {
                 System.out.printf("\nTerceiro %d",x);
             }
         } else {
-            if (x >= y) {
+            if (x <= y) {
                 System.out.printf("Primeiro %d",z);
                 System.out.printf("\nSegundo %d",x);
                 System.out.printf("\nTerceiro %d",y);
