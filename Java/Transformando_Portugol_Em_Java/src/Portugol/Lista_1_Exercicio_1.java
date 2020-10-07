@@ -5,19 +5,7 @@ import java.util.Scanner;
 public class Lista_1_Exercicio_1 {
 
 	public static void main(String[] args) {
-		/*
-		 * programa
-{
-	
-
-	funcao inicio()
-	{
 		
-		
-		
-	}
-}
-		 */
 		Scanner leia = new Scanner(System.in);
 		int diaAtual,mesAtual,anoAtual,diaUsuario,mesUsuario,AnoUsuario,mesCalculo,anoCalculo,diaCalculo,diaFinal = 0;
 		
