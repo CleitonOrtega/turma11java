@@ -1,9 +1,9 @@
-package laçoSe;
+package lacoSe;
 import java.util.Scanner;
 public class primeiroSe {
 	public static void main(String[] args)
 	
-	{		// TODO Auto-generated method stub
+	{	
 		Scanner leia = new Scanner(System.in);
 		int anoNasc,idade;
 		char sexo, chefe;

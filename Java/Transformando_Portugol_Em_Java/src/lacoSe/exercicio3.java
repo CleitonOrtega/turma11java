@@ -1,4 +1,4 @@
-package laçoSe;
+package lacoSe;
 
 import java.util.Scanner;
 

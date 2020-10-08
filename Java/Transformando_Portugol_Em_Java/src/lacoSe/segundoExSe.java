@@ -1,9 +1,11 @@
-package laçoSe;
+package lacoSe;
 
 import java.util.Scanner;
 
-public class segundoExSe {
+	
 
+public class segundoExSe {
+	
 	public static void main(String[] args) {
 		
 		 Scanner tec = new Scanner (System.in);
@@ -19,6 +21,7 @@ public class segundoExSe {
 		}else{
 		System.out.printf("Você digitou %.0f, é um numero Impar! e positivo",numero);
 		}
+		
 
 		tec.close();
 	}
